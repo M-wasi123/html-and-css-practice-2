@@ -129,3 +129,29 @@
     font-size:22px;
     color:rgb(40, 41, 40);
 }
+.login{
+    padding-top: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.sing-up{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+.get-login{
+    background-color: white;
+    border: 1px solid rgb(241, 238, 238);
+    border-radius: 5px;
+    box-shadow: 1px;
+    padding: 10px 30px;
+}
+.pera6{
+    color:grey;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
