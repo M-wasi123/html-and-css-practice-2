@@ -46,3 +46,8 @@
     padding-right: 100px;
     line-height: 20px;
 }
+.email{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
