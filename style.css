@@ -10,7 +10,7 @@
 }
 .main-container{
     width: 100%;
-    background-color: white;
+    background-color: rgb(250, 248, 248);
     border-radius: 10px;
     padding: 80px 30px;
     display: flex;
@@ -48,8 +48,9 @@
 }
 .contact-detail{
     width: 80%;
-    padding: 20px 0px;
+    margin-top: 20px;
     border-radius: 10px;
+    border: 1px solid rgb(236, 234, 234);
 }
 .email{
     display: flex;
@@ -84,7 +85,7 @@
     display: flex;
   justify-content: space-between;
   align-items: center;
-    padding: 10px 30px;
+    padding: 3px 30px;
     border-bottom: 1px solid rgb(0, 132, 255);
 }
 .lock{
@@ -108,11 +109,23 @@
     display: flex;
   justify-content: space-between;
   align-items: center;
-    padding: 15px 30px;
-    border-bottom: 1px solid rgb(218, 217, 217);
+    padding: 5px 30px;
+    border-bottom: 1px solid rgb(236, 235, 235);
 }
 .pera5{
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+.phone{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+    padding: 5px 30px;
+    border-bottom: 1px solid rgb(236, 235, 235);
+}
+
+#phones{
+    font-size:22px;
+    color:rgb(40, 41, 40);
 }
