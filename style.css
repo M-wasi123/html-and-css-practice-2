@@ -104,6 +104,12 @@
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(0, 132, 255)
 }
+#email{
+    border: none;
+    outline: none;
+    background-color: rgb(240, 241, 241);
+    width: 100%;
+}
 #pass{
     border: none;
     outline: none;
@@ -187,7 +193,26 @@
    }
 }
 @media only screen and (max-width:705px) {
+    .parrent-box{
+        padding: 50px 40px;
+    }
     .login{
-        width: 70%;
+        width: 60%;
        }
     }
+    @media only screen and (max-width:540px) {
+        .parrent-box{
+            padding: 40px 20px;
+        }
+        .login{
+            width: 70%;
+           }
+        }
+        @media only screen and (max-width:440px) {
+            .parrent-box{
+                padding: 40px 20px;
+            }
+            .login{
+                width: 90%;
+               }
+            }
