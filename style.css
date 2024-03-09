@@ -212,6 +212,9 @@
             .parrent-box{
                 padding: 40px 20px;
             }
+            #lamp-work{
+                max-height: 200px;
+            }
             .login{
                 width: 90%;
                }
